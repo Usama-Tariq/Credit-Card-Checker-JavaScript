@@ -65,8 +65,16 @@ idInvalidCardCompanies() should return an array of companies that have mailed ou
 You can use another array to store the names of companies to contact. When iterating through the array of invalid numbers, check the first digit of the number and see if the company already exists in the new array. If the company is not already there, then add the new company. You can use a series of if... else if statements or a switch statement to match the first digit to the company.
 The [.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) method can be helpful for checking if an element already exists in an array.
 
-#### Step: 6
+### Project Extensions & Solution
 
+#### Step: 6
+Great work! Visit [our forums](https://discuss.codecademy.com/t/credit-card-checker-challenge-project-javascript/462375) to compare your project to our sample solution code. You can also learn how to host your own solution on GitHub so you can share it with other learners! Your solution might look different from ours, and that’s okay! There are multiple ways to solve these projects, and you’ll learn more by seeing others’ code.
 
 #### Step: 7
+If you’d like to challenge yourself further, you could consider the following:
+- Use different credit card numbers from [a credit card number generator and validator site](https://www.freeformatter.com/credit-card-number-generator-validator.html) and test if your functions work for all types of credit cards.
+- To make it easier to test credit card numbers, create a function that accepts a string and converts it into an array of numbers like the initially provided arrays. (Check the hint for a helpful function)
+- Create a function that will convert invalid numbers into valid numbers.
 
+###### Hint:
+If you need to convert strings to numbers, [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) can help you do that.
