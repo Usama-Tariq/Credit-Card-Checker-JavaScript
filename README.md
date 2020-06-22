@@ -51,6 +51,7 @@ Loop through the nested array and use the validateCred() function that you’ve 
 
 #### Step: 5
 After finding all the invalid credit card numbers, it’s also necessary to identify the credit card companies that have possibly issued these faulty numbers. Create a function, idInvalidCardCompanies() that has one parameter for a nested array of invalid numbers and returns an array of companies.
+
 Currently, there 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
 First | Digit	Company
 ---------- | ----------
@@ -60,10 +61,12 @@ First | Digit	Company
 6 | Discover
 
 If the number doesn’t start with any of the numbers listed, print out a message like: “Company not found”.
+
 idInvalidCardCompanies() should return an array of companies that have mailed out cards with invalid numbers. This array should NOT contain duplicates, i.e. even if there are two invalid Visa cards, "Visa" should only appear once in the array.
 
 ###### Hint:
 You can use another array to store the names of companies to contact. When iterating through the array of invalid numbers, check the first digit of the number and see if the company already exists in the new array. If the company is not already there, then add the new company. You can use a series of if... else if statements or a switch statement to match the first digit to the company.
+
 The [.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) method can be helpful for checking if an element already exists in an array.
 
 ### Project Extensions & Solution
