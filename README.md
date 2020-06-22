@@ -1,1 +1,1 @@
-# Credit-Card-Checker-JavaScript
+# Credit-Card-Checker-JavaScript-Codecademy
