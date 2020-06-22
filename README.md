@@ -33,6 +33,7 @@ Here’s a [visual that outlines the steps](https://codecademy-content.s3.amazon
 
 ###### Hint:
 Using the Luhn algorithm involves iterating through an array backward. You can also make use of the % (modulo) operator to check if the element needs to doubled or not (per step 2).
+
 Alternatively, another series of steps that accomplishes the same goal can be found at [Free Formatter’s Luhn algorithm implementation](https://www.freeformatter.com/credit-card-number-generator-validator.html#howToValidate).
 If you’re following Free Formatter’s method, it is replicated by following these steps:
 1. Remove the last element from the array, (but remember, you don’t want to alter the original array!).
